@@ -1,4 +1,4 @@
-const API_KEY = 'ae1eacedf57e5b889751833e53735b07703b05be';
+const API_KEY = '63d79eb7976b9cf0d14dbb72caac9de912e63940';
 
 let fetchHoliday = async (country, year) => {
     let api = `https://calendarific.com/api/v2/holidays?&api_key=${API_KEY}&country=${country}&year=${year}`;
